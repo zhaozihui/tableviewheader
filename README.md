@@ -1,5 +1,4 @@
-#CategorySelect
-模仿网易栏目选择的效果
+#TableHeaderView
 
 画面效果:
 
