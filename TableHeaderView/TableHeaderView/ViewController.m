@@ -74,8 +74,8 @@
         CGRect f = headerBg.frame;
         f.origin.y = yOffset;
         f.size.height =  -yOffset + kImageOriginHight;
-        f.origin.x = -(f.size.height*ScreenWidth/220 -  ScreenWidth)/2;
-        f.size.width = f.size.height*ScreenWidth/220;
+        f.origin.x = -(f.size.height*ScreenWidth/kImageOriginHight -  ScreenWidth)/2;
+        f.size.width = f.size.height*ScreenWidth/kImageOriginHight;
         headerBg.frame = f;
         visualEffectView.frame = headerBg.bounds;
     }
